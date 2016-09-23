@@ -1,20 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Gist
- @basellers1
- Watch 5
-  Star 3
- Fork 3 codefellows/seattle_201d15
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Pulse  Graphs
-Branch: master Find file Copy pathseattle_201d15/class-05-images-color-text/lab/app.js
-944288a  an hour ago
-@samhamm samhamm middle of class 9/23
-1 contributor
-RawBlameHistory
-101 lines (61 sloc)  5.41 KB
 'use strict';
 /////////////////////////////////////
 /* Problem 1 (this is your demo that we'll solve in class)
@@ -23,15 +6,15 @@ Write a function called sum() that takes in two numbers as arguments and then re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
 
 // Write your code here
-function sum(a,b){ //eslint-disable-line
-// var sum = a + b;
-// var message = 'The sum of' + a + b + 'is' + sum + '.');
-// var utput = [sum, message];
-// return output;
+function sum(a,b){
+var sum = a + b;
+  var message = 'The sum of ' + a + ' and ' + b + ' is ' + sum + '.';
+var output = [sum, message];
+return output;
 }
 
 // Here is the test for sum(); uncomment it to run it
-// testSum(4, 7);
+testSum(4, 7);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -43,11 +26,14 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a,b){ //eslint-disable-line
-
+  var multiply = a * b;
+  var message = ('The result of ' + a * b + ' is ' + multiply + '.');
+  var output = [multiply, message];
+  return output;
 }
 
 // Here is the test for multiply(); uncomment it to run it
-// testMultiply(5,9);
+multiply(5,9);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -98,6 +84,7 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(testArray){ //eslint-disable-line
+  var multiply = [a,b,c];
 
 }
 
@@ -105,5 +92,3 @@ function multiplyArray(testArray){ //eslint-disable-line
 // testMultiplyArray(2,3,4);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. You're done! Submit the link to the repo following the instructions in Canvas.
-Contact GitHub API Training Shop Blog About
-© 2016 GitHub, Inc. Terms Privacy Security Status Help
